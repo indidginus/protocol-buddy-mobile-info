@@ -1,0 +1,54 @@
+# ===========================================
+# SAFETY: Deny everything by default
+# Only allow explicitly listed documentation files
+# ===========================================
+
+# Deny everything
+*
+*/
+
+# Allow only documentation and assets
+!.gitignore
+!README.md
+!LICENSE
+!CLAUDE.md
+!assets/
+!assets/*.png
+!assets/*.jpg
+!assets/*.svg
+!docs/
+!docs/**/*.md
+!docs/**/*.png
+
+# Explicitly deny sensitive files (double protection)
+*.env
+*.env.*
+.env.local
+.env.production
+*.key
+*.pem
+*.crt
+package.json
+package-lock.json
+node_modules/
+.expo/
+dist/
+build/
+*.log
+
+# Deny all code files
+*.ts
+*.tsx
+*.js
+*.jsx
+*.json
+*.config.*
+*.css
+*.scss
+
+# Deny git and IDE files from being tracked
+.git/
+.vscode/
+.idea/
+*.swp
+*.swo
