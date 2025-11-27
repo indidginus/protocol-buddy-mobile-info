@@ -37,11 +37,11 @@
 ### Premium Features
 
 - **Unlimited protocol access** - no view limits
-- **Save favorite protocols** - bookmark for quick access
+- **Saved protocols** - bookmark and manage your favorite protocols
 - **Dosage calculators** - weight-based and liquid dose converters
-- **Smart reminders** - schedule notifications for protocol adherence
-- **Calendar integration** - add protocols to Google Calendar or device calendar
-- **Saved protocols page** - manage your protocol library
+- **Calendar integration** - set reminders and add protocols to Google Calendar or device calendar
+- **Push notifications** - receive reminders directly on your phone for protocol adherence
+- **Saved protocols page** - organize and access your protocol library
 
 ### Protocol Categories
 
