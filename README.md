@@ -12,7 +12,7 @@
 
 **Protocol Buddy** is a React Native mobile application that provides evidence-based health protocols with interactive dosage calculators. The app helps users safely navigate supplement and therapeutic compound dosing with:
 
-- **50+ health protocols** across 13 categories
+- **60+ health protocols** across 13 categories
 - **Interactive dosage calculators** with weight-based and fixed dosing
 - **Smart reminders** and calendar integration
 - **Research citations** for evidence-based recommendations
@@ -98,11 +98,13 @@
 ### How It Works
 
 **Free Tier:**
+
 - 3 protocol detail views (tracked in AsyncStorage)
 - Can browse all protocols
 - Cannot access calculators, reminders, or saved protocols
 
 **Premium Tier:**
+
 - Unlimited protocol access
 - All premium features unlocked
 - Monthly or annual subscription via Google Play
