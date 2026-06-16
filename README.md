@@ -12,8 +12,10 @@
 
 **Protocol Buddy** is a React Native mobile application that provides evidence-based health protocols with interactive dosage calculators. The app helps users safely navigate supplement and therapeutic compound dosing with:
 
-- **60+ health protocols** across 13 categories
+- **60+ health protocols** across 14 categories
 - **Interactive dosage calculators** with weight-based and fixed dosing
+- **In-depth guides** with cross-links to related protocols
+- **AskBuddy AI Q&A** for natural-language protocol questions
 - **Smart reminders** and calendar integration
 - **Research citations** for evidence-based recommendations
 - **Dark mode** support for comfortable viewing
@@ -29,9 +31,11 @@
 
 ### Core Features (Free Tier)
 
-- Browse 50+ health protocols across multiple categories
+- Browse 60+ health protocols across multiple categories
 - View 3 protocol details for free (with full dosage information)
 - Search and filter protocols by category
+- Read in-depth guides, each cross-linked to its related protocol
+- Ask AskBuddy natural-language questions about protocols (AI-powered)
 - Responsive UI with light/dark mode support
 
 ### Premium Features
@@ -79,8 +83,12 @@
 ### UI Components
 
 - **React Native Elements** - UI component library (Slider)
-- **React Native Paper** - Material Design components
 - **Expo Vector Icons** - Icon library
+
+### Content & AI
+
+- **remark** - Renders guide Markdown content to HTML
+- **AskBuddy** - AI Q&A powered by the Protocol Buddy web app's AI Q&A endpoint
 
 ### Monetization
 
