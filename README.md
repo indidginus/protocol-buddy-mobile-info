@@ -12,9 +12,10 @@
 
 **Protocol Buddy** is a React Native mobile application that provides evidence-based health protocols with interactive dosage calculators. The app helps users safely navigate supplement and therapeutic compound dosing with:
 
-- **Extensive library of evidence-based health protocols** across 14 categories
+- **Extensive library of evidence-based health protocols** across 15 categories
 - **Interactive dosage calculators** with weight-based and fixed dosing
 - **In-depth guides** with cross-links to related protocols
+- **Protocol stacks** - curated multi-protocol combinations for goals like sleep, longevity, and cognition
 - **AskBuddy AI Q&A** for natural-language protocol questions
 - **Smart reminders** and calendar integration
 - **Research citations** for evidence-based recommendations
@@ -35,6 +36,7 @@
 - View 3 protocol details for free (with full dosage information)
 - Search and filter protocols by category
 - Read in-depth guides, each cross-linked to its related protocol
+- Browse curated protocol stacks (e.g. Sleep Stack, Longevity Stack, Cognitive Stack)
 - Ask AskBuddy natural-language questions about protocols (AI-powered)
 - Responsive UI with light/dark mode support
 
@@ -56,6 +58,7 @@
 - Circulation
 - Cognitive
 - Detoxification
+- Gut Health
 - Immune Support
 - Metabolic
 - Mineral
@@ -73,8 +76,9 @@
 - **React 19.1** - UI library
 - **TypeScript 5.9** - Type-safe JavaScript
 
-### State Management & Forms
+### Navigation & State Management
 
+- **React Navigation** - Native stack navigation
 - **React Context API** - Subscription and theme state
 - **React Hook Form** - Form validation
 - **Zod** - Schema validation
@@ -88,7 +92,7 @@
 ### Content & AI
 
 - **remark** - Renders guide Markdown content to HTML
-- **AskBuddy** - AI Q&A powered by the Protocol Buddy web app's AI Q&A endpoint
+- **AskBuddy** - AI Q&A powered by the Protocol Buddy web app's AI Q&A endpoint, streamed via the Vercel AI SDK
 
 ### Monetization
 
