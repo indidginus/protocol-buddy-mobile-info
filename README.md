@@ -36,6 +36,7 @@
 - View 3 protocol details for free (with full dosage information)
 - Search and filter protocols by category
 - Read in-depth guides, each cross-linked to its related protocol
+- Use the in-app FAQ, Privacy Policy and Terms of Service
 - Browse curated protocol stacks (e.g. Sleep Stack, Longevity Stack, Cognitive Stack)
 - Ask AskBuddy natural-language questions about protocols (AI-powered)
 - Responsive UI with light/dark mode support
@@ -45,7 +46,8 @@
 - **Unlimited protocol access** - no view limits
 - **Saved protocols** - bookmark and manage your favorite protocols
 - **Dosage calculators** - weight-based and liquid dose converters
-- **Calendar integration** - set reminders and add protocols to Google Calendar or device calendar
+- **Calendar integration** - set reminders (once, daily or weekly, cancellable in one tap) and add protocols to Google Calendar or device calendar
+- **AskBuddy beyond the free questions** - fair use applies
 - **Push notifications** - receive reminders directly on your phone for protocol adherence
 - **Saved protocols page** - organize and access your protocol library
 
@@ -111,7 +113,7 @@
 
 **Free Tier:**
 
-- 3 protocol detail views (tracked in AsyncStorage)
+- 3 protocol detail views and 3 AskBuddy questions (tracked in AsyncStorage on the device)
 - Can browse all protocols
 - Cannot access calculators, reminders, or saved protocols
 
@@ -119,7 +121,7 @@
 
 - Unlimited protocol access
 - All premium features unlocked
-- Monthly or annual subscription via Google Play
+- Monthly subscription, annual subscription or a one-time lifetime purchase via Google Play, with Restore purchases
 
 ## Notes
 
